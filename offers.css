@@ -1,0 +1,429 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    background-color:rgb(211, 224, 248);
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 80px;
+}
+.nav .logo{  
+    float: left;
+    width: 30%;
+}
+.nav .logo img{
+    
+    height: 80px;
+     width: 70px;
+     float: left;
+     padding-left: 30%;
+ }
+.nav .logo h2{
+    float: left;
+    color: #ffffff;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 20px;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 25px;
+    padding-left: 20px;
+    color: black;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 7px 10px 7px 10px;
+    
+}
+
+.nav ul li a:hover{
+    background-color: cadetblue;
+    border-radius: 10px
+}
+.submenu {
+    display: inline-block;
+}
+
+.list {
+  display: none;
+  position: absolute;
+  background-color: rgb(211, 224, 248);
+  min-width: 135px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 7px 10px 7px 10px;
+}
+
+.list a:hover {
+    background-color: rgb(123, 204, 193)
+}
+
+.submenu:hover .list {
+    display: block;
+}
+
+
+ .header{
+    background-image: url("15.jfif");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position:center ;
+    width: 100%;
+    height: 500px;
+    
+} 
+
+  .header h1{
+     text-align: center;
+     color: #FFF;
+     font-size: 50px;
+     width: 800px;
+     
+     border-radius: 6%;
+     color: rgb(255, 255, 255);
+     float: right;
+     margin: 10px;
+     padding-top: 2%;
+     
+     
+ }  
+
+ .header h3{
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    float: right;
+    
+    
+    
+    
+}  
+.searchBar input[type=text] {
+
+    position: static;
+    float: left;
+    padding: 8px 20px;
+    border: none;
+     margin-top: 200px;
+    margin-left: 30%;  
+    font-size: 20px;
+    font-weight: 100;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 400px;
+    height: 30px;
+    white-space: nowrap;
+    width: 25%;
+    display: flex;
+}
+.searchBar button  {
+    font-size: 20px;
+    float: left;
+    font-weight: 500;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    height: 48px;
+    width: 8%;
+    display: inside;
+    padding-top: 40px;
+    margin-top: 199px; 
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 5px 32px;
+    background-color: #0071c2;
+}
+.searchBar button:hover{
+    background-color: #04528a;
+}
+.container{
+    width: 75%;
+    margin: auto; /*sets it to the middle */
+    background-color: white;
+    
+}
+.location  ul li{
+    display: inline-block;
+}
+.location img{
+    width: 17px;
+    flex-basis: 40%;
+    
+   
+    
+}
+
+.block1{
+    position: relative;
+    color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-right: 13%;
+    margin-bottom: 7%;
+     
+}
+.block1 button{
+    border: none;
+    outline: 0;
+    padding: 4px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    transition: transform .2s;
+    font-size: 7px;
+    
+}
+.block1 button:hover{
+    background-color: #04528a;
+    transform: scale(1.1);
+
+}
+.block2{
+    position: relative;
+    color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    max-height: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 7%;
+}
+.block2 button{
+    border: none;
+    outline: 0;
+    padding: 4px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 7px;
+    transition: transform .2s;
+}
+.block2 button:hover{
+    background-color: #04528a;
+    transform: scale(1.1);
+}
+.block3{
+    position: relative;
+    color: black;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 7%;
+}
+.block3 button{
+    border: none;
+    outline: 0;
+    padding: 4px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 7px;
+    transition: transform .2s;
+}
+.block3 button:hover{
+    background-color: #04528a;
+    transform: scale(1.1);
+}
+.block4{
+    position: relative;
+    color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-right: 13%;
+    margin-bottom: 7%;
+}
+.block4 button{
+    border: none;
+    outline: 0;
+    padding: 4px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 7px;
+    transition: transform .2s;
+    
+}
+.block4 button:hover{
+    background-color: #04528a;
+    transform: scale(1.1);
+}
+.block5{
+    position: relative;
+    color: black;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 7%;
+
+}
+.block5 button{
+    border: none;
+    outline: 0;
+    padding: 4px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 7px;
+    transition: transform .2s;
+}
+.block5 button:hover{
+    background-color: #04528a;
+    transform: scale(1.1);
+}
+.block6{
+    position: relative;
+    color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 7%;
+}
+.block6 button{
+    border: none;
+    outline: 0;
+    padding: 4px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 7px;
+    transition: transform .2s;
+}
+.block6 button:hover{
+    background-color: #04528a;
+    transform: scale(1.1);
+}
+.block7{
+    position: relative;
+    color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 7%;
+    
+}
+.block7 button{
+    border: none;
+    outline: 0;
+    padding: 4px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 7px;
+    transition: transform .2s;
+}
+.block7 button:hover{
+    background-color: #04528a;
+    transform: scale(1.1);
+
+}
+.topleft{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(252, 97, 97);
+    transition: transform .2s;
+}
+.topleft:hover {
+    transform: scale(1.2); 
+  }
+
+
+
+.clr{
+    clear:both; /*clears floats*/
+}
+  .block1:hover .image {
+    opacity: 0.5;
+  }
+  .block2:hover .image {
+    opacity: 0.5;
+  }
+  .block3:hover .image {
+    opacity: 0.5;
+  }
+  .block4:hover .image {
+    opacity: 0.5;
+  }
+  .block5:hover .image {
+    opacity: 0.5;
+  }
+  .block6:hover .image {
+    opacity: 0.5;
+  }
+  .block7:hover .image {
+    opacity: 0.5;
+  }
+ 
+  
+  
+  
+
+ .footer{
+    background-color:rgb(211, 224, 248);
+    color: black;
+    padding: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer  ul li{
+    display: inline-block;
+}
+.footer ul li img{
+   width: 25px;
+   text-align: center;
+}

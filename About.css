@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.nav{
+    background-color:rgb(211, 224, 248);
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 80px;
+}
+.nav .logo{  
+    float: left;
+    width: 30%;
+}
+.nav .logo img{
+    
+    height: 80px;
+     width: 70px;
+     float: left;
+     padding-left: 30%;
+ }
+.nav .logo h2{
+    float: left;
+    color: #ffffff;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 20px;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 25px;
+    padding-left: 20px;
+    color: black;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 7px 10px 7px 10px;
+    
+}
+.submenu {
+    display: inline-block;
+  }
+  
+  .list {
+  display: none;
+  position: absolute;
+  background-color: rgb(211, 224, 248);
+  min-width: 135px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  }
+  
+  .list a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 7px 10px 7px 10px;
+  }
+  
+  .list a:hover {
+    background-color: rgb(123, 204, 193)
+  }
+  
+  .submenu:hover .list {
+    display: block;
+  }
+.nav ul li a:hover{
+    background-color: cadetblue;
+    border-radius: 10px
+}
+.header{
+    background-image: url("bora-bora1.jpg");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position:center ;
+    width: 100%;
+    height: 400px;
+    
+} 
+
+  .header h1{
+     text-align: center;
+     
+     font-size: 70px;
+     width: 800px;
+     border-radius: 20%;
+     
+     color: rgb(178, 231, 252);
+     float: right;
+     margin: 10px;
+     padding-top: 2%;   
+     margin-top: 6%; 
+     margin-left: 2%;
+ }  
+ .main{
+    width: 75%;
+    margin: auto; /*sets it to the middle */
+    background-color: white;
+ }
+ .double{
+     color: rgb(106, 173, 196);
+     text-align: middle;
+ }
+
+
+ .container{
+    width: 75%;
+    margin: auto; /*sets it to the middle */
+    background-color: white;
+}
+
+.member{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.member{
+    position: relative;
+    color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 20%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-right: 13%;
+    margin-bottom: 7%;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.member1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.member1{
+    position: relative;
+    color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 20%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-right: 13%;
+    margin-bottom: 7%;
+}
+
+.title{
+    color: grey;
+}
+.button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 94%
+}
+.button:hover{
+    background-color: #555;
+}
+
+ 
+
+
+.footer{
+    background-color:rgb(211, 224, 248);
+    color: black;
+    padding: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer  ul li{
+    display: inline-block;
+}
+.footer ul li img{
+   width: 25px;
+   text-align: center;
+}
